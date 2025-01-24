@@ -1,0 +1,13 @@
+<style>
+    frame {
+      resize: none;
+    }
+
+    /* 隐藏拉伸状态的控制手柄 */
+    frame::-webkit-resizer,
+    frame::-moz-resizer,
+    frame::-o-resizer,
+    frame::-ms-resizer {
+      display: none;
+    }
+  </style>
